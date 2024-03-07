@@ -8,7 +8,7 @@ Using Debian 12
 
 Execute this commads as root:
 
-``
+```console
 apt update
 
 apt upgrade
