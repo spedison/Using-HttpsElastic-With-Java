@@ -8,7 +8,7 @@ Using Debian 12
 
 Execute this commads as root:
 
-```console
+```bash
 apt update
 
 apt upgrade
@@ -21,15 +21,15 @@ echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://arti
 apt update
 
 apt-get install elasticsearch
-``
+```
 
 # Create self-sign certificate
 
-``
+```bash
 mkdir certificate
 cd certificate
 openssl req -x509 -newkey rsa:2048 -keyout certificate.key -out certificate.crt -days 3650 -nodes -subj '/CN=elasticdb-8.casa.com.br'
-``
+```
 
 
 
